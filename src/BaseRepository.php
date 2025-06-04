@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\BaseRepository;
+namespace DuongNX\BaseRepository;
 
 abstract class BaseRepository implements BaseRepositoryInterface
 {
