@@ -11,6 +11,7 @@ abstract class BaseRepository implements BaseRepositoryInterface
     public function __construct()
     {
         $this->setModel();
+        $this->boot();
     }
 
     public function boot(): void
